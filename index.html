@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun" style="display: none;"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title text-primary">Hi, I'm <span class="highlight">Jane Doe</span></h1>
+            <h2 class="hero-subtitle">Frontend Developer</h2>
+            <p class="hero-description">I build beautiful, responsive websites with modern technologies</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title text-primary">About <span class="highlight">Me</span></h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400" alt="Profile Image">
+            </div>
+            <div class="about-content">
+                <h3 class="text-primary">Who am I?</h3>
+                <p class="text-secondary">I'm a passionate frontend developer with 3 years of experience creating modern web applications. I specialize in HTML, CSS, JavaScript, and React.</p>
+                <p class="text-secondary">My journey in web development started when I was in college and I've been in love with coding ever since. I enjoy solving problems and creating intuitive user experiences.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label text-primary">Name:</span>
+                        <span class="detail-value text-secondary">Jane Doe</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label text-primary">Email:</span>
+                        <span class="detail-value text-secondary">jane@example.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label text-primary">Experience:</span>
+                        <span class="detail-value text-secondary">3 Years</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label text-primary">Location:</span>
+                        <span class="detail-value text-secondary">San Francisco, CA</span>
+                    </div>
+                </div>
+                <a href="#" class="btn primary" id="download-cv">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title text-primary">My <span class="highlight">Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 class="text-primary">Frontend</h3>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">HTML</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">React</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="80"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="text-primary">Backend</h3>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">Express</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">MongoDB</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="65"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="text-primary">Tools</h3>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">Git</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">VS Code</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name text-secondary">Figma</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title text-primary">My <span class="highlight">Projects</span></h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-container">
+            <div class="project-card" data-category="frontend">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3 class="text-primary">E-commerce Website</h3>
+                    <p class="text-secondary">A responsive e-commerce site built with React and Redux.</p>
+                    <div class="project-tech">
+                        <span class="text-secondary">React</span>
+                        <span class="text-secondary">Redux</span>
+                        <span class="text-secondary">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="fullstack">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3 class="text-primary">Task Management App</h3>
+                    <p class="text-secondary">A fullstack application for managing tasks with user authentication.</p>
+                    <div class="project-tech">
+                        <span class="text-secondary">Node.js</span>
+                        <span class="text-secondary">Express</span>
+                        <span class="text-secondary">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3 class="text-primary">UI/UX Design</h3>
+                    <p class="text-secondary">A collection of modern UI/UX designs for mobile and web applications.</p>
+                    <div class="project-tech">
+                        <span class="text-secondary">Figma</span>
+                        <span class="text-secondary">Adobe XD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Designs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="frontend">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 4">
+                </div>
+                <div class="project-info">
+                    <h3 class="text-primary">Weather App</h3>
+                    <p class="text-secondary">A weather application that shows current and forecasted weather.</p>
+                    <div class="project-tech">
+                        <span class="text-secondary">JavaScript</span>
+                        <span class="text-secondary">API</span>
+                        <span class="text-secondary">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title text-primary">Get In <span class="highlight">Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 class="text-primary">Contact Information</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope text-primary"></i>
+                    <span class="text-secondary">jane@example.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone text-primary"></i>
+                    <span class="text-secondary">+1 (555) 123-4567</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt text-primary"></i>
+                    <span class="text-secondary">San Francisco, CA</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github text-primary"></i></a>
+                    <a href="#"><i class="fab fa-linkedin text-primary"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+                    <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required class="text-secondary">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required class="text-secondary">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Subject" class="text-secondary">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required class="text-secondary"></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+                <div id="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="text-primary">&copy; 2023 My Portfolio. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up text-primary"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
