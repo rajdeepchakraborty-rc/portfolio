@@ -64,8 +64,8 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript feat
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://yourusername.github.io)
-[![Report Bug](https://img.shields.io/badge/-Report%20Bug-red)](https://github.com/yourusername/your-repo/issues)
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://portfolio-rajdeepchakraborty-rcs-projects.vercel.app/)
+[![Report Bug](https://img.shields.io/badge/-Report%20Bug-red)](https://github.com/rajdeepchakraborty-rc/portfolio/issues)
 
 </div>
 
