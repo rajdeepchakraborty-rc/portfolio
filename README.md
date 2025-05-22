@@ -12,15 +12,15 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript feat
 
 <!-- Added Project Stats -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/stargazers"><img src="https://img.shields.io/github/stars/rajdeepchakraborty-rc/Phantom_Hacks" alt="Stars Badge"/></a>
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/network/members"><img src="https://img.shields.io/github/forks/rajdeepchakraborty-rc/Phantom_Hacks" alt="Forks Badge"/></a>
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/pulls"><img src="https://img.shields.io/github/issues-pr/rajdeepchakraborty-rc/Phantom_Hacks" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/issues"><img src="https://img.shields.io/github/issues/rajdeepchakraborty-rc/Phantom_Hacks" alt="Issues Badge"/></a>
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rajdeepchakraborty-rc/Phantom_Hacks?color=2b9348"></a>
-<a href="https://github.com/rajdeepchakraborty-rc/Phantom_Hacks/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rajdeepchakraborty-rc/Phantom_Hacks?color=2b9348" alt="License Badge"/></a>
-[![](https://visitcount.itsvg.in/api?id=phantom-hacks&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo)
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/your-repo)
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/stargazers"><img src="https://img.shields.io/github/stars/rajdeepchakraborty-rc/portfolio" alt="Stars Badge"/></a>
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/network/members"><img src="https://img.shields.io/github/forks/rajdeepchakraborty-rc/portfolio" alt="Forks Badge"/></a>
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/pulls"><img src="https://img.shields.io/github/issues-pr/rajdeepchakraborty-rc/portfolio" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/issues"><img src="https://img.shields.io/github/issues/rajdeepchakraborty-rc/portfolio" alt="Issues Badge"/></a>
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rajdeepchakraborty-rc/portfolio?color=2b9348"></a>
+<a href="https://github.com/rajdeepchakraborty-rc/portfolio/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rajdeepchakraborty-rc/portfolio?color=2b9348" alt="License Badge"/></a>
+[![](https://visitcount.itsvg.in/api?id=portfolio&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in)
+![GitHub last commit](https://img.shields.io/github/last-commit/rajdeepchakraborty-rc/portfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/rajdeepchakraborty-rc/portfolio)
 
 </div>
 
