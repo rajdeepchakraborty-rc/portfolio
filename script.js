@@ -176,18 +176,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Create a temporary link
             const link = document.createElement('a');
-            link.href = 'assets/documents/your_cv.pdf';
-            link.download = 'YourName_CV.pdf';
+            link.href = '/assets/Rajdeep_Resume.pdf'; // Replace with your CV file path
+            link.download = 'Rajdeep_Resume.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-            
-            // Fallback if download doesn't start
-            setTimeout(() => {
-                if (!document.querySelector('a[download="YourName_CV.pdf"]')) {
-                    alert('CV download started! If it doesn\'t begin automatically, check your downloads folder.');
-                }
-            }, 1000);
         });
     }
 
